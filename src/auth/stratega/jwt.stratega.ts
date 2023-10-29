@@ -28,6 +28,6 @@ export class JwrStratega extends PassportStrategy(Strategy, 'jwt') {
 
         delete user.password;
 
-        return user
+        return user;
     }
 }
